@@ -1,8 +1,13 @@
-  /* * {
-  border: 1px solid red;
-}      */
+  *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  }
+         /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 .firstsection{
-   height:10vh;
+   height:9vh;
 }
 .header{
    background-color: black;
@@ -12,11 +17,12 @@
 }
 .navkeys{
   display: flex;
+  gap: 20px;
 }
 
 a {
     color: #979292;
-    padding: 10px 15px;
+    padding: 12px 18px;
     display: block;
 }
 
@@ -66,21 +72,61 @@ a:hover {
 }
 .purple{
   background-color: #421983;
+   padding-top: 40px;
+  padding-bottom: 40px;
   
 }
 .purple1st{
   font-size: 52px;
   line-height: normal;
-  text-align: center;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: #fff;
-    height:30vh;
+  font-weight: 600;
+  color: #fff;
+  height:30vh;
+  width:50vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 320px;
 }
 #purplesecond{
    display: flex;
    justify-content:center;
-   height:13vh;
+   margin-top: 80px;
+   margin-bottom: 25px;
+}
+.purplesecondone{
+    padding: 15px 100px;
+    display: flex;
+    border-radius: 5px;
+   
+}
+
+.purplesecondone input {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+.select{
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    color: #888D9A;
+}
+.startbutton {
+    background-color: #eb5b27;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.startbutton:hover {
+    background-color: #982410; /* Lighter orange on hover */
 }
 .purplethird{
   font-size: 30px;
@@ -113,6 +159,9 @@ a:hover {
     height: 48px;
     transition: color .2s, background-color .2s;
 }
+.buton:hover{
+  background-color: #9c6bdc;
+}
 .purplefifth{
   margin-bottom: 40px;
   color: #b880ff;
@@ -120,7 +169,12 @@ a:hover {
   font: inherit;
   font-size: 20px;
   margin-bottom: 24px;
+  margin-top: 65px;
   font-family:  sans-serif;
+}
+.longpic{
+  display: flex;
+  justify-content: center;
 }
 .enter{
   background-image: url("../Assets/Images/enterprise-bg.c8d503b8b3fda8cd66ac.webp");
@@ -128,13 +182,15 @@ a:hover {
   width: 100vw;
   display: flex;
   justify-content: space-around;
+   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .enterleft{
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
-  gap:40px;
+  gap:1px;
 }
 .enterright{
   display: flex;
@@ -151,13 +207,14 @@ a:hover {
   color: #fff;
   margin-top: 28px;
     margin-bottom: 40px;
-    font-size: 32px;
+    font-size: 42px;
     line-height: normal;
     font-weight: 400;
 }
 .enterlist{
   color: #fff;
   list-style: none;
+  vertical-align: middle;
   gap: 20px;
     font-size: 21px;
     line-height: 28px;
@@ -169,7 +226,7 @@ a:hover {
     color: #fff;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
-    padding: 20px;
+    padding: 15px  40px;
     font-family: inherit;
     font-size: 18px;
     line-height: 16px;
@@ -185,6 +242,10 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+.comp{
+   padding-top: 40px;
+  padding-bottom: 40px;
+}
 .compfirst{
     font-size: 38px;
     line-height: 1.2;
@@ -192,10 +253,15 @@ a:hover {
     font-weight: 600;
     color: black;
     text-align: center;
+    width:50vw;
+    margin-left: 280px;
+    margin-top: 65px;
+    margin-bottom: 65px;
 }
 .compitems{
   display: flex;
   justify-content: space-around;
+  margin-bottom: 75px; ;
 }
 .tenmcontainer{
   display: flex;
@@ -215,6 +281,7 @@ a:hover {
 }
 .compur{
   background-color: #e2caff;
+  margin-bottom: 65px;
 }
 .tenmtxt{
   font-size: 21px;
@@ -226,20 +293,22 @@ a:hover {
     font-weight: 400;
 }
 .compurfirst{
-  font-size: 28px;
+    font-size: 42px;
     line-height: 1.2;
     text-align: center;
     font-family: "Inter", sans-serif;
     line-height: 1.5;
     color: #191b23;
     font-weight: 600;
+    margin-top:60px;
+    margin-bottom:40px ;
 }
 .compur_items{
     display: flex;
     justify-content: space-around;
 }
 .compurone{
-     padding: 28px 20px 20px;
+     padding: 80px 80px 20px;
     border-radius: 10px;
     background: #fff;
     box-shadow: 3px 3px 30px 0 rgba(25, 27, 35, .15);
@@ -248,18 +317,21 @@ a:hover {
 }
 .compurtwo{
   color: #b880ff;
-    font-size: 50px;
+    font-size: 65px;
     line-height: 1.1;
     font-family: "Factor A", Arial, Helvetica, sans-serif;
     font-weight: 600;
+    margin-bottom: 25px;
     
 }
 .compurthree{
   font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
+    font-weight: bold;
     color: #191b23;
     position: relative;
+    margin-bottom:20px ;
 
 }
 .compursecond{
@@ -269,11 +341,30 @@ a:hover {
     width: 72vw;
     display: flex;
     justify-content: center;
-    margin-left: 92px;
+    margin-left: 140px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
+}
+.startbuttons {
+    background-color: #eb5b27;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 40px;
+}
+
+.startbuttons:hover {
+    background-color: #982410; /* Lighter orange on hover */
 }
 .casey{
   background-color: #421983;
+   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .caseybuttons{
   display: flex;
@@ -287,10 +378,13 @@ a:hover {
     font-family: "Factor A", Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-align: center;
+    margin-top: 120px;
+    margin-bottom: 45px;
 }
 .caseyimage{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 .caseyfour{
   font-size: 24px;
@@ -301,6 +395,8 @@ a:hover {
     color: #fff;
     font-family: "Factor A", Arial, Helvetica, sans-serif;
     font-weight: 600;
+    margin-top: 70px;
+    
 }
 .caseyfive{
   font-family: "Inter", sans-serif;
@@ -308,6 +404,7 @@ a:hover {
     line-height: 1.5;
     color: #f6f7fa;
     text-align: center;
+    
 
 }
 .caseysix{
@@ -316,6 +413,8 @@ a:hover {
 }
 .black{
   background-color: black;
+   padding-top: 40px;
+  padding-bottom: 40px;
 }
 .blackbold{
   color: #fff;
@@ -331,10 +430,66 @@ a:hover {
     font-size: 14px;
     padding-top: 25px;
 }
+.blackbut{
+  align-items: center;
+    background-color: initial;
+    border: 1px solid #898d9a;
+    border-radius: 6px;
+    color: #898d9a;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    justify-content: center;
+    line-height: 19px;
+    padding: 10px 40px 12px;
+    transition: color .2s, border-color .2s;
+    cursor: pointer;
+}
+.blackbut:hover{
+    color: white;
+    border-color: white;
+}
+.blackgreen{
+ background: #009f81;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    height: 42px;
+    line-height: 19px;
+    padding: 10px 70px 12px;
+    transition: background-color .2s;
+    color:white;
+}
+.blackgreen:hover{
+    background-color: #086453;
+}
+.blackhead{
+  display: flex;
+  justify-content: space-around;
+}
+.blackheadleft{
+  display: flex;
+  width: 70vw;
+}
 .lists{
   display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .footer{
   background-color: #111317;
   display:flex;
+}
+.tick{
+  display: flex;
+ vertical-align: middle;
+}
+.tik{
+  vertical-align: middle;
+}
+.learnmore{
+  display: flex;
+  justify-content: center;
 }
