@@ -1,17 +1,17 @@
   
-         /* * {
+         * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
-     /* *{
+}
+      /* *{
   border: 1px solid red;
- }       */
+ }           */
 .firstsection{
    height:9vh;
 }
 .header{
-   background-color: black;
+   background-color: #111317;
    color:grey;
    display:flex;
    justify-content:center ;
@@ -20,10 +20,11 @@
 }
 .navkeys{
   display: flex;
-  gap: 10px;
+  gap: 7px;
 }
 .nav-item{
-  gap:0
+  display: flex;
+  align-items: center;
 }
 
 a {
@@ -33,33 +34,39 @@ a {
     display: block;
     text-decoration: none;
     vertical-align: middle; 
-
+    font-family: Inter, sans-serif;
+   
 }
 
 a:hover {
     color: #fff;
     background-color: transparent;
 }
+/* .arrow{
+  display:flex;
+  height:1vh;
 
+} */
 .new {
-    background-color: #00cc88;
+    background-color: #18a887;
     color: #fff;
     font-size: 10px;
     padding: 2px 5px;
-    border-radius: 3px;
-    margin-left: 5px;
-    vertical-align: super;
+    border-radius: 7px;
+    align-items: center;
 }
 #navlogin{
      background-color: transparent;
      color:white;
      border: 1px solid white;
      border-radius: 5px;
-     padding: 07px 22px;
+     padding: 7px 12px;
      font-size: 14px;
      cursor:pointer;
      text-overflow: ellipsis;
      font: inheriit;
+     font-family: Inter, sans-serif;
+
      
 }
 #navlogin:hover{
@@ -68,7 +75,7 @@ a:hover {
 #navsignup{
     text-overflow: ellipsis;
     vertical-align: top;
-    padding: 07px 22px;
+    padding: 07px 12px;
     font-size: 14px;
     font: inherit;
     background-color: #18a887;
@@ -78,6 +85,9 @@ a:hover {
     border: 2px;
     display: flex;
     align-items: center;
+    color: white;
+    font-family: Inter, sans-serif;
+
 
 }
 #navsignup:hover{
@@ -91,16 +101,33 @@ a:hover {
   
 }
 .purple1st{
+ font-size: 52px;
+  font-family: "Factor A", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: white;
+   /* height:30vh;  */
+  width:50vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 340px;
+  align-items: flex-end;
+  margin-top: 90px;
+}
+.purplesecond{
   font-size: 52px;
   line-height: normal;
   font-family: "Factor A", Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: white;
-  height:30vh;
+  /* height:30vh; */
   width:50vw;
   display: flex;
   justify-content: center;
-  margin-left: 350px;
+  margin-left: 340px;
+}
+.mf{
+  display: flex;
+  justify-content: center;
 }
 
 .trial {
@@ -124,7 +151,7 @@ a:hover {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
-    border-radius: 0 5px 5px 0;
+    border-radius: 5px;
 }
 .leftsearch{
      display: flex;
@@ -140,16 +167,22 @@ a:hover {
 
 }
 .search{
-    padding: 21px 100px;
+     padding: 21px 10px; 
     border-radius: 5px 0 0 5px;
      border: none;
+     display:flex;
+     text-align: left;
+     padding-right: 120px;
 
 }
 .select{
-   padding: 20px 20px;
+   padding: 20px 20px; 
     border:  1px solid #e0e0e0;
     color: #898d9a;
     text-transform: uppercase;
+    border-radius: 0px 5px 5px 0px;
+    
+
 }
 .buttoncontainer{
     display:flex;
@@ -293,7 +326,7 @@ a:hover {
 }
 .compitems{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 75px; ;
 }
 .tenmcontainer{
@@ -316,6 +349,8 @@ a:hover {
   background-color: #e2caff;
   margin-bottom: 65px;
   border-radius: 80px 80px 80px 80px;
+  width: 1150px;
+  margin-left: 58px;
 }
 .tenmtxt{
   font-size: 21px;
@@ -381,7 +416,7 @@ a:hover {
 
 }
 .startbuttons {
-    background-color: #eb5b27;
+    background-color: #ff622d;
     color: #fff;
     padding: 15px 30px;
     border: none;
@@ -555,6 +590,16 @@ background-color: #421983;
       background-color: #4b0082;
        line-height: normal;
         font-family: "Factor A", Arial, Helvetica, sans-serif;
+}
+.end{
+   color: #a1a6af;
+    font-size: 14px;;
+    padding: 12px 18px;
+    display: block;
+    text-decoration: none;
+    vertical-align: middle; 
+    font-family: Inter, sans-serif;
+    font-weight: 500px;
 }
 .end:hover{
    color: #fff;
